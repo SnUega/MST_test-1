@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Prata:regular" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="burger.css">
+    <title>MST_test</title>
+</head>
+<body>
+    
+    <div class="container-head">
+        <nav class="header">
+            <a href="#general_block" class="nav_bar_logo" style="font-family: prata;">Sapore</a>
+            <ul class="nav_bar_list">
+                <li class="nav_bar_item">
+                    <a href="#general_block" class="nav_bar_link">General</a>
+                </li>
+                <li class="nav_bar_item">
+                    <a href="#info_block" class="nav_bar_link">About us</a>
+                </li>
+                <li class="nav_bar_item">
+                    <a href="#form_block" class="nav_bar_link">Contact us</a>
+                </li>
+            </ul>
+            <div class="menu">
+                <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                <label for="burger-checkbox" class="burger"></label>
+                <ul class="menu-list">
+                    <li><a href="#" class="menu-item">General</a><li>
+                    <li><a href="#" class="menu-item">About us</a><li>
+                    <li><a href="#" class="menu-item">Contact us</a><li>
+                </ul>
+            </div>    
+        </nav>
+        <div class="head_subcontainer-1" id="general_block">
+                <h2 class="head_title">Immerse yourself in the world of winemaking</h2>
+                <h4 class="head_subtitle">world of flavors and aromas</h4>
+            <ul class="head_list">
+                <li class="head_list_item">
+                    <span class="head_list_text">
+                        <img src="./img/apply.png" alt="" class="head_list_img">
+                        up to <b class="marker">3 000</b> types of wines
+                        </span>
+                </li>
+                <li class="head_list_item">
+                    <span class="head_list_text">
+                        <img src="./img/apply.png" alt="" class="head_list_img"> 
+                        aging for up to <b class="marker">30</b> years
+                    </span>
+                </li>
+                <li class="head_list_item">
+                    <span class="head_list_text">
+                        <img src="./img/apply.png" alt="" class="head_list_img"> 
+                        includes up to <b class="marker">17%</b> of the rarest wines
+                    </span>
+                </li>
+            </ul>
+            <button class="head_btn" type="submit" form="contact-us_form">reserve</button>
+        </div>    
+                   <img src="./img/1.PNG" alt="" class="img_head">
+    </div>
+
+    <main class="main_container" id="info_block">        
+        <div class="info_container">  
+            <div class="info-list_container">
+                <img src="./img/2.png" alt="" class="main_img-1">
+            <ul class="main_info-list">
+                <li class="main_info-item-1">
+                    <img src="./img/Exclude.png" alt="" class="info_list_img">
+                    <span class="info_list_text">
+                        The pleasant trattoria setting and exquisite delicacies will complement your tasting
+                    </span>
+                </li>
+                <li class="main_info-item-2">
+                    <img src="./img/Exclude.png" alt="" class="info_list_img">
+                    <span class="info_list_text">
+                        Live music and a monthly changing program always provide different experiences
+                    </span>
+                </li>
+                <li class="main_info-item-3">
+                    <img src="./img/Exclude.png" alt="" class="info_list_img">
+                    <span class="info_list_text">
+                        The best sommeliers will help you choose wine and delicacies to suit your taste. They will teach you to hear and feel wine and accompany you to the amazing world of winemaking
+                    </span>
+                </li>
+                <li class="main_info-item-4">
+                    <img src="./img/Exclude.png" alt="" class="info_list_img">
+                    <span class="info_list_text">
+                        Possibility of ordering exclusive wines to your personal collection
+                    </span>
+                </li>
+                <button class="main_info_btn" type="submit" form="contact-us_form">reserve</button>
+            </ul>
+            <img src="./img/3.png" alt="" class="main_img-2"> 
+            </div>           
+        </div>
+    </main>
+    <div class="form_placeholder">
+        <div class="form_container" id="form_block">
+            <div class="form_subcontainer" id="form_block">
+                <label class="form_title">Leave the data <br>we will contact you</label>
+                <form action="URL" class="main_form" id="contact-us_form">
+                    <ul class="form_list">
+                        <li class="form_list-item">
+                            <input type="text" name="<name>" placeholder="Name" class="form-input name">
+                        </li>
+                        <li class="form_list-item">
+                            <input type="email" name="<email>" placeholder="E-mail" class="form-input email">
+                        </li>
+                        <li class="form_list-item">
+                            <input type="checkbox" required class="form-check" id="checkbox1">
+                        <laber class="checkbox_label" for="checkbox1">I accept Privacy policy</laber>
+                        </li>
+                        <button type="submit" class="form-btn">Submit order</button>
+                    </ul>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="footer_container">
+        <nav class="footer_nav-bar">
+            <ul class="footer_nav-list">
+                <li class="footer_nav-item">
+                    <a href="#" class="footer_nav-link">General</a>
+                </li>
+                <li class="footer_nav-item">
+                    <a href="#" class="footer_nav-link">Support</a>
+                </li>
+                <li class="footer_nav-item">
+                    <a href="#" class="footer_nav-link">Production</a>
+                </li>
+            </ul>
+        </nav>
+    <div class="footer_subcontainer">
+        <p class="footer_logo">Sapore</p>
+        <ul class="footer_social-list">
+            <li class="footer_social-item">
+                <a href="#" class="footer_social-link">
+                    <img src="./img/social_ico/insta.svg" alt="" class="footer_social-img">
+                </a>
+            </li>
+            <li class="footer_social-item">
+                <a href="#" class="footer_social-link">
+                    <img src="./img/social_ico/tiktok.svg" alt="" class="footer_social-img">
+                </a>
+            </li>
+            <li class="footer_social-item">
+                <a href="#" class="footer_social-link">
+                    <img src="./img/social_ico/LMI.svg" alt="" class="footer_social-img">
+                </a>
+            </li>
+            <li class="footer_social-item">
+                <a href="#" class="footer_social-link">
+                    <img src="./img/social_ico/FB.svg" alt="" class="footer_social-img">
+                </a>
+            </li>
+            <li class="footer_social-item">
+                <a href="#" class="footer_social-link">
+                    <img src="./img/social_ico/TG.svg" alt="" class="footer_social-img">
+                </a>
+            </li>
+            <li class="footer_social-item">
+                <a href="#" class="footer_social-link">
+                    <img src="./img/social_ico/YT.svg" alt="" class="footer_social-img">
+                </a>
+            </li>
+        </ul>
+        <button type="submit"  class="footer_btn" form="contact-us_form">Order</button>
+    </div>
+        <ul class="footer_info-list">
+            <li class="footer_info-item">
+                <a class="footer_list-link">© 2024, Copyright.</a>
+            </li>
+            <li class="footer_info-item">
+                <a href="#" class="footer_list-link">Privacy policy</a>
+            </li>
+            <li class="footer_info-item">
+                <a href="#" class="footer_list-link" id="terms-of-use">Terms of Use</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="header.js"></script>
+    <script src="burger.js"></script>
+</body>
+</html>
